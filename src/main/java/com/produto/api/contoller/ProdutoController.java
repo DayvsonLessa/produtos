@@ -25,12 +25,12 @@ public class ProdutoController {
     }
 
     // Buscar por ID - GET
-//    @GetMapping("/{id}")
-//    public ResponseEntity<Produto> buscarPorId(@PathVariable Long id) {
-//        return service.buscarPorId(id)
-//                .map(produto -> ResponseEntity.ok().body(produto))
-//                .orElse(ResponseEntity.notFound().builder().build());
-//    }
+    //@GetMapping("/{id}")
+    //public ResponseEntity<Produto> buscarPorId(@PathVariable Long id) {
+   //     return service.buscarPorId(id)
+   //           .map(produto -> ResponseEntity.ok().body(produto))
+   //             .orElse(ResponseEntity.notFound().build());
+  //  }
 
     // Criar novo - POST
     @PostMapping
